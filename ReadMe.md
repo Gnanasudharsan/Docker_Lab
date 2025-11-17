@@ -54,8 +54,6 @@ Model training completed — custom version by Gnana!
 ### Files Inside Container
 ![Inside Container](screenshots/inside_container_files.png)
 
-### Model File Generated
-![Model File](screenshots/container_model_file_generated.png)
 
 ---
 ### Summary
