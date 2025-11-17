@@ -1,6 +1,5 @@
 # Docker Lab
-
-To ensure my lab is not identical to the professor’s version, I implemented several changes:
+```bash
 	•	Added a manual shuffle to the dataset using NumPy
 	•	Modified train-test split random state
 	•	Increased RandomForestClassifier estimators from 100 → 150
@@ -9,18 +8,18 @@ To ensure my lab is not identical to the professor’s version, I implemented se
 	•	Wrote a custom Dockerfile
 	•	Added a requirements.txt for dependency control
 	•	Ran the entire ML pipeline inside Docker
-
+```
 ---
 
 ### Files in This Repository
-
+```bash
 Dockerfile          # The Docker build instructions
 main.py             # Modified ML training script
 requirements.txt    # Dependencies installed inside container
 src/                # Extra folder (not used but kept from original structure)
 venv/               # Local virtual environment (ignored by Docker)
 
-
+```
 ---
 
 ### How to Build the Docker Image
@@ -39,6 +38,24 @@ Expected output:
 
 Model training completed — custom version by Gnana!
 
+
+---
+## Screenshots
+
+### Docker Build Success
+![Build Success](screenshots/docker_build_success.png)
+
+### Docker Build (Second View)
+![Build Success 2](screenshots/docker_build_success_2.png)
+
+### Docker Run Output
+![Run Output](screenshots/docker_run_output.png)
+
+### Files Inside Container
+![Inside Container](screenshots/inside_container_files.png)
+
+### Model File Generated
+![Model File](screenshots/container_model_file_generated.png)
 
 ---
 ### Summary
