@@ -1,4 +1,4 @@
-### Docker Lab
+# Docker Lab
 
 To ensure my lab is not identical to the professor’s version, I implemented several changes:
 	•	Added a manual shuffle to the dataset using NumPy
@@ -10,7 +10,7 @@ To ensure my lab is not identical to the professor’s version, I implemented se
 	•	Added a requirements.txt for dependency control
 	•	Ran the entire ML pipeline inside Docker
 
-⸻
+---
 
 ### Files in This Repository
 
@@ -21,7 +21,7 @@ src/                # Extra folder (not used but kept from original structure)
 venv/               # Local virtual environment (ignored by Docker)
 
 
-⸻
+---
 
 ### How to Build the Docker Image
 
@@ -29,7 +29,7 @@ venv/               # Local virtual environment (ignored by Docker)
 docker build -t gnana-lab1 .
 
 ```
-⸻
+---
 
 ### How to Run the Docker Container
  ``` bash
@@ -40,8 +40,7 @@ Expected output:
 Model training completed — custom version by Gnana!
 
 
-⸻
-
+---
 ### Summary
  ``` bash
 This lab demonstrates how to:
